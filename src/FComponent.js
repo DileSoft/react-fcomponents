@@ -34,11 +34,7 @@ class FComponent {
 
 export const make = (_class) => {
     return props => {
-        const classRef = React.useRef();
-        if (!classRef.current) {
-            classRef.current = new _class();
-        }
-        const obj = classRef.current;
+        let obj = new _class();
         const Component = (obj.Component.bind(obj))()
         return <Component {...props} />
     };
