@@ -27,15 +27,18 @@ class FComponent {
         throw new Error('You have to implement the method render.');
     }
 
-    Component() {
+    Component = () => {
         return this.renderInternal.bind(this);
     }
 }
 
 export const make = (_class) => {
     return props => {
-        let obj = new _class();
-        const Component = (obj.Component.bind(obj))()
+        const componentRef = React.useRef();
+        if (!componentRef.current) {
+            componentRef.current = new _class().Component();
+        }
+        const Component = componentRef.current;
         return <Component {...props} />
     };
 }
