@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import FComponent, { make } from "./FComponent";
+// import FComponent, { make } from "react-fcomponents";
+import FComponent, { make } from './FComponent';
 
 class ExampleClass extends FComponent {
     useTest = (...args) => {

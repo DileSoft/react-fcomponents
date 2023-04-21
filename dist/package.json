@@ -1,0 +1,15 @@
+{
+  "name": "react-fcomponents",
+  "version": "0.2.6",
+  "author": {
+    "name": "Dmitry \"DileSoft\" Leykin",
+    "email": "dilesoft1@yandex.ru"},
+  "description": "React functional class components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DileSoft/react-fcomponents.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "main": "FComponent.js"
+}
