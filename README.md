@@ -2,7 +2,7 @@
 
 О пакете: https://habr.com/ru/articles/730766/
 
-Use classes as functional React components
+Use classes as functional React components.
 
 Example of usage: 
 
