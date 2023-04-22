@@ -1,12 +1,6 @@
 # React-fcomponents
 
-О пакете: https://habr.com/ru/articles/730766/
-
 Use classes as functional React components.
-
-https://www.npmjs.com/package/react-fcomponents
-
-`npm i react-fcomponents`
 
 Example of usage: 
 

@@ -10,8 +10,7 @@
 
 # production
 /build
-/dist/*
-!/dist/package.json
+/dist/FComponent.js
 
 # misc
 .DS_Store
