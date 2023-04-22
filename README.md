@@ -6,7 +6,7 @@ Use classes as functional React components
 
 Example of usage: 
 
-```
+```jsx
 import { useEffect, useState } from "react";
 import FComponent, { make } from "react-fcomponents";
 
