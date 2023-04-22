@@ -10,8 +10,8 @@ class FComponent {
     }
 
     renderInternal(props) {
-        this.useHooks();
         this.props = props;
+        this.useHooks();
         return this.render(props);
     }
 
